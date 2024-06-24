@@ -1,0 +1,90 @@
+body{
+    background:rgb(98, 1, 98);
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height:100vh;
+
+
+}
+
+.file-grid{
+    width:45%;
+    aspect-ratio: 16/10;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    place-items: center;
+    gap:5%;
+    padding:3%;
+    
+}
+
+
+.file-container{
+    background: white;
+    height:90%;
+    aspect-ratio: 13/16;
+    /* border-radius: 10px; */
+}
+
+
+
+.file-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap:10%;
+    padding-bottom: 7%;
+    box-sizing: border-box;
+
+}
+
+.file-container > img{
+    width:20%;
+
+}
+
+
+.file-container > button{
+    background: purple;
+    border: none;
+    padding:5% 10%;
+
+
+}
+
+
+.course-name{
+    font-size: 0.5rem;
+    width:50%;
+    text-align: justify;
+    transition: 300ms all;
+}
+
+.file-container > button:active{
+    background: whitesmoke;
+}
+
+
+
+.welcome{
+    position:fixed;
+    color:white;
+    top:3%;
+    left:3%;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
