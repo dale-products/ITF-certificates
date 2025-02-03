@@ -1,90 +1,52 @@
 body{
-    background:rgb(98, 1, 98);
-    margin:0;
-    padding:0;
+    background: black;
     display:flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     justify-content: center;
-    overflow: hidden;
-    height:100vh;
 
+}
 
+.welcome{
+    color:white;
+    font-size: 2rem;
+    margin-left: 30px;
 }
 
 .file-grid{
-    width:45%;
-    aspect-ratio: 16/10;
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    place-items: center;
-    gap:5%;
-    padding:3%;
-    
-}
+    gap:10px;
+    width:950px;
+    margin-inline: auto;
+    margin: auto;
+    margin-top: 50px;
 
-
-.file-container{
-    background: white;
-    height:90%;
-    aspect-ratio: 13/16;
-    /* border-radius: 10px; */
-}
-
-
-
-.file-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    gap:10%;
-    padding-bottom: 7%;
-    box-sizing: border-box;
 
 }
 
-.file-container > img{
-    width:20%;
-
+.file-container >img {
+    width:100px
 }
-
 
 .file-container > button{
-    background: purple;
-    border: none;
-    padding:5% 10%;
-
-
+    padding: 7px 10px;
+    background: black;
+    border:none;
+    border-radius: 7px;
+    color:white
 }
 
+.file-container{
+    width:200px;
+    height:250px;
 
-.course-name{
-    font-size: 0.5rem;
-    width:50%;
-    text-align: justify;
-    transition: 300ms all;
+    background:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    border-radius: 7px;
 }
-
-.file-container > button:active{
-    background: whitesmoke;
-}
-
-
-
-.welcome{
-    position:fixed;
-    color:white;
-    top:3%;
-    left:3%;
-    font-size: 2rem;
-    font-style: italic;
-}
-
-
-
-
-
-
-
 
